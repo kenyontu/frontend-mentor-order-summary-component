@@ -22,8 +22,11 @@
 
   --clr-btn-primary-bg: hsl(245, 75%, 52%);
   --clr-btn-primary-shw: hsla(245, 75%, 52%, 0.4);
+  --clr-btn-primary-hover-bg:	hsl(243, 78%, 67%);
   --clr-btn-link: hsl(245, 75%, 52%);
+  --clr-btn-link-hover: hsl(243, 78%, 67%);
   --clr-btn-cancel: var(--clr-bluish-gray-lt);
+  --clr-btn-cancel-hover: var(--clr-bluish-gray-dk);
 
   /* Font faces */
   --ff-base: 'Red Hat Display', sans-serif;
@@ -181,6 +184,11 @@ body {
   color: var(--clr-white);
   box-shadow: 0 9px 24px var(--clr-btn-primary-shw);
   letter-spacing: 0.025em;
+  transition: background-color 200ms;
+}
+
+.btn.primary:hover {
+  background-color: var(--clr-btn-primary-hover-bg);
 }
 
 .btn.cancel {
@@ -190,10 +198,20 @@ body {
   background-color: transparent;
   color: var(--clr-btn-cancel);
   letter-spacing: 0.025em;
+  transition: color 200ms;
+}
+
+.btn.cancel:hover {
+  color: var(--clr-btn-cancel-hover);
 }
 
 .btn.link {
   text-decoration: underline;
   background-color: transparent;
   color: var(--clr-btn-link);
+  transition: color 200ms;
+}
+
+.btn.link:hover {
+  color: var(--clr-btn-link-hover);
 }
