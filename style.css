@@ -75,18 +75,6 @@ body {
   font-family: var(--ff-base);
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    display: flex;
-    align-items: center;
-    background: url('./images/pattern-background-desktop.svg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-color: var(--clr-bg);
-    font-size: 16px;
-    font-family: var(--ff-base);
-  }
-}
 
 /* Components */
 
@@ -214,4 +202,69 @@ body {
 
 .btn.link:hover {
   color: var(--clr-btn-link-hover);
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    align-items: center;
+    background: url('./images/pattern-background-desktop.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: var(--clr-bg);
+    font-size: 18px;
+    font-family: var(--ff-base);
+  }
+
+  .order-summary {
+    --w: 450px;
+  }
+
+  .order-summary > div {
+    padding: 0 3rem;
+  }
+
+  .order-summary h1 {
+    margin-top: 2.7rem;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+  }
+
+  .order-summary .message {
+    line-height: 1.6;
+    letter-spacing: 0em;
+  }
+
+  .plan {
+    margin-top: 1.3rem;
+    padding: 1.89em 1.8em;
+  }
+
+  .plan-name {
+    font-size: 1rem;
+    margin-top: -0.25em;
+    margin-bottom: 0.22em;
+  }
+
+  .plan-price {
+    font-size: 1rem;
+  }
+
+  .plan .btn.link {
+    font-size: 0.85rem;
+    margin-top: -0.15em;
+  }
+
+  .order-summary .btn.primary {
+    margin-top: 1.86em;
+    padding: 0.9em 0;
+    font-size: 1rem;
+    letter-spacing: -0.5px;
+  }
+
+  .order-summary .btn.cancel {
+    margin-top: 1.38em;
+    margin-bottom: 2.55em;
+    letter-spacing: -0.5px;
+  }
 }
