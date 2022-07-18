@@ -6,7 +6,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 
 ## Overview
@@ -17,9 +17,13 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.png)
+Click to open the full-size screenshot.
+
+| Mobile                                                                              | Desktop                                                                               |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <a href="./screenshots/mobile.png"><img src="./screenshots/mobile-thumb.png" /></a> | <a href="./screenshots/desktop.png"><img src="./screenshots/desktop-thumb.png" /></a> |
 
 ### Links
 
